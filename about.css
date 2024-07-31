@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+body {
+    font-family: "Glory", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #fff5e6; 
+    color: #663300; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: orange; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 2%;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.contact{
+    background-color: #f0ab4d;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 4px -4px #343331;
+}

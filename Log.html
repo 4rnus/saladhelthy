@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="Log.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <a href="#" class="logo">Healthy Salad</a>
+            <ul class="nav-links">
+                <li><a href="Log.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form id="form-input" onsubmit="event.preventDefault(); FormSubmit()";>
+        <h1>CRUD</h1>
+        <div class="in1">
+            Name :
+            <input type="text" id="txtName">
+        </div>  
+        <div class="in2">
+            Address :
+            <input type="text" id="txtAddress">
+        </div>
+        <div class="in3">
+            Tel :
+            <input type="text" id="txtTel">
+        </div>
+        <div class="in4">
+            <input type="submit" class="btn" value="Submit">
+            <input type="reset" class="btn" value="Cancel">
+        </div>
+
+        <section>
+            <table id="tblContact" border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Tel</th>
+                    <th>Edit</th>
+                    <th class="del">Delete</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <td id="name"></td>
+                    <td id="addr"></td>
+                    <td id="tel"></td>
+                    <td id="edit"></td>
+                    <td id="del"></td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </form>
+<script src="login.js"></script>
+</body>
+</html>

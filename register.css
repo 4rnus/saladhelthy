@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Glory", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body {
+    background-image: url("photo.jpg");
+}
+h1{
+    color: black;
+    font-size: 45px;
+    margin-top: 3px;
+    margin-bottom: 6%;
+}
+#form {
+    background-color: #FAD295;
+    width: 550px;
+    height: 595px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 4px -4px #343331;
+    text-align: center;
+}
+.inputinfo {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    padding: auto;
+    margin:auto;
+}
+#username , #password {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btnsub{
+    background-color: orange;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8%;
+    border: none;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btnre {
+    background-color: orange;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1%;
+    border: none;
+    border-radius: 12px;
+}
+.sign {
+    font-size: 20px;
+    margin-top: 5%;
+    color: black;
+}
